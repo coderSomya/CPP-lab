@@ -9,4 +9,4 @@ make
 make run
 ```
 
-## To test <file>.cpp, replace SRC=<filename> in Makefile [line: 5] with <file>.cpp  
+_To test {file}.cpp, replace SRC={filename} in Makefile [line: 5] with {file}.cpp_
