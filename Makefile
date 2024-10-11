@@ -2,7 +2,7 @@
 CXX = g++
 CXXFLAGS = -std=c++17
 TARGET = output
-SRC = test_casting.cpp
+SRC = test_serialization.cpp
 
 # Default target
 all: $(TARGET)
