@@ -29,6 +29,9 @@ void check(std::optional<int> n){
     std::cout<<n1.n<<std::endl;
 }
 
+std::optional<uint32_t> f(int x){
+    if(x%2) return x;
+}
 
 int main() {
     // std::optional<int> opt1 = 42;
@@ -58,4 +61,7 @@ int main() {
     check(b);
 
     return 0;
+
+    int c;
+    // c = f(12);
 }

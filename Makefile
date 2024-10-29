@@ -2,7 +2,7 @@
 CXX = g++
 CXXFLAGS = -std=c++17
 TARGET = output
-SRC = test_serialization.cpp
+SRC = custom_serializer.cpp
 
 # Default target
 all: $(TARGET)
